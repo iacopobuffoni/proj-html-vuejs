@@ -4,6 +4,7 @@ import AppMainFirstSection from './AppMainFirstSection.vue';
 import AppMainSecondSection from './AppMainSecondSection.vue';
 import AppMainThirdSection from './AppMainThirdSection.vue';
 import AppMainSponsors from './AppMainSponsors.vue';
+import AppMainOrganisations from './AppMainOrganisations.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -11,7 +12,8 @@ export default {
         AppMainFirstSection,
         AppMainSecondSection,
         AppMainThirdSection,
-        AppMainSponsors
+        AppMainSponsors,
+        AppMainOrganisations
         
     }
 }
@@ -27,6 +29,7 @@ export default {
             <AppMainSecondSection/>
             <AppMainThirdSection/>
             <AppMainSponsors/>
+            <AppMainOrganisations/>
         </main>
     </main>
 </template>

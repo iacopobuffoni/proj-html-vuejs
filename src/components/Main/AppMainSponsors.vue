@@ -42,7 +42,7 @@ export default {
                     Drive Leads and Sales with Avada
                 </div>
                 <div>
-                    <div class="btn ms-4">
+                    <div class="btn">
                         <a class="orange fs-5">
                             <font-awesome-icon icon="fa-solid fa-phone" class="mx-3 orange" />
                             <span class="me-1">
