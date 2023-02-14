@@ -1,0 +1,30 @@
+@import "../styles/mixins.scss";
+
+.orange {
+    color: $orange;
+}
+
+header {
+    background-color: white;
+    height: 110px;
+    width: 100%;
+    font-size: 1.1rem;
+
+    a {
+        text-decoration: none;
+        color: black;
+        .dropdown {
+            font-size: 14px;
+        }
+    }
+
+    .header-container {
+        width: 70%;
+        margin: auto; 
+    }
+
+    .btn {
+        @include my-btn;
+        background-color: #ffe7da;
+    }
+}

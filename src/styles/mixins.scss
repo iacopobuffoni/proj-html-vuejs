@@ -1,0 +1,9 @@
+@import "./variables.scss";
+
+@mixin my-btn {
+    background-color: $orange;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
