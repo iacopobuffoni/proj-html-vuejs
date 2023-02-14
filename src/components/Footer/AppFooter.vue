@@ -11,5 +11,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import "../../styles/appfooter"; 
+@import "../../styles/footer/appfooter.scss"; 
 </style>
