@@ -25,6 +25,8 @@ header {
 
     .btn {
         @include my-btn;
+        color: white;
+        text-align: center;
         background-color: #ffe7da;
     }
 }
