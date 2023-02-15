@@ -3,15 +3,15 @@
 main {
     width: 100%;
     min-height: 100px;
+    background-color: black;
 
     header {
-        width: 100%;
-        background-color: black;
-        position: relative;
+        width: 75%;
         padding-bottom: 120px;
+        margin: auto;
 
         .header-container {
-            width: 70%;
+            width: 90%;
             margin: auto;
             display: flex;
 

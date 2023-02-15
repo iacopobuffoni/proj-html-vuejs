@@ -1,0 +1,52 @@
+@import "../partials/mixins.scss";
+
+main {
+    width: 100%;
+    min-height: 100px;
+    padding-top: 120px;
+
+    footer {
+        width: 75%;
+        padding-bottom: 120px;
+        margin: auto;
+
+        .footer-container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+
+            .left-footer-container {
+                width: 35%;
+
+                .padding {
+                    padding-top: 10px;
+                }
+            }
+
+            .right-footer-container {
+                display: flex;
+                width: 65%;
+
+                .list {
+                    width: calc(100% / 3);
+                    padding-left: 100px;
+                    padding-top: 10px;
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+
+                        li {
+                            margin-top: 15px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
