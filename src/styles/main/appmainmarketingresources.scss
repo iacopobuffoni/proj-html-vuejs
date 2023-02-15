@@ -1,0 +1,65 @@
+@import "../partials/mixins.scss";
+
+main {
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-color: #f7f7f8;
+
+    .main-container {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+
+        .title {
+            width: 90%;
+            margin: auto;
+            position: relative;
+
+            .title-box {
+                width: calc(100% / 2);
+            }
+
+            h2 {
+                font-size: 3.2em;
+                font-weight: bold;
+            }
+
+            .btn {
+                @include my-btn;
+                text-align: center;
+                background-color: $orange;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+    
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .box {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+
+            >div {
+                width: 31%;
+
+                img {
+                    width: 100%;
+                }
+
+                h3 {
+                    font-size: 1.9em;
+                }
+
+            }
+
+        }
+    }
+}

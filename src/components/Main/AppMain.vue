@@ -7,6 +7,7 @@ import AppMainSponsors from './AppMainSponsors.vue';
 import AppMainOrganisations from './AppMainOrganisations.vue';
 import AppMainFirstLightGraySection from './AppMainFirstLightGraySection.vue';
 import AppMainBigPhoto from './AppMainBigPhoto.vue';
+import AppMainMarketingResources from './AppMainMarketingResources.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -17,7 +18,8 @@ export default {
         AppMainSponsors,
         AppMainOrganisations,
         AppMainFirstLightGraySection,
-        AppMainBigPhoto
+        AppMainBigPhoto,
+        AppMainMarketingResources
         
     }
 }
@@ -36,6 +38,7 @@ export default {
             <AppMainOrganisations/>
             <AppMainFirstLightGraySection/>
             <AppMainBigPhoto/>
+            <AppMainMarketingResources/>
         </main>
     </main>
 </template>
