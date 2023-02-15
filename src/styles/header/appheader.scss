@@ -10,6 +10,10 @@ header {
     width: 100%;
     font-size: 1.1rem;
 
+    li:first-child {
+        border-bottom: 2px solid $orange;
+    }
+
     li:first-child a {
         color: $orange;
     }

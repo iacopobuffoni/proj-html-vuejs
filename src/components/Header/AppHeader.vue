@@ -1,10 +1,10 @@
 <script>
+import { store } from '../../store';
 export default {
     name: 'AppHeader',
     data() {
         return {
-            partone: ['Home', 'Services'],
-            parttwo: ['Why Us', 'Case Studies', 'About', 'Blog']
+            store
         }
     }
 }
@@ -17,7 +17,7 @@ export default {
                 <img src="../../assets/images/avada-marketing-logo.png" alt="">
             </div>
             <ul class="d-flex list-unstyled align-items-center mb-0 mx-4">
-                <li class="me-3" v-for="nameone in partone">
+                <li class="me-3" v-for="nameone in store.partone">
                     <a href="#" class="">
                         <span class="me-1">
                             {{ nameone }}
@@ -25,7 +25,7 @@ export default {
                         <font-awesome-icon icon="fa-solid fa-angle-down" class="dropdown" />
                     </a>
                 </li>
-                <li class="mx-3" v-for="nametwo in parttwo">
+                <li class="mx-3" v-for="nametwo in store.parttwo">
                     <a href="#" class="">
                         <span class="me-1">
                             {{ nametwo }}
