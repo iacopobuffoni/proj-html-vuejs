@@ -5,6 +5,8 @@ import AppMainSecondSection from './AppMainSecondSection.vue';
 import AppMainThirdSection from './AppMainThirdSection.vue';
 import AppMainSponsors from './AppMainSponsors.vue';
 import AppMainOrganisations from './AppMainOrganisations.vue';
+import AppMainFirstLightGraySection from './AppMainFirstLightGraySection.vue';
+import AppMainBigPhoto from './AppMainBigPhoto.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -13,7 +15,9 @@ export default {
         AppMainSecondSection,
         AppMainThirdSection,
         AppMainSponsors,
-        AppMainOrganisations
+        AppMainOrganisations,
+        AppMainFirstLightGraySection,
+        AppMainBigPhoto
         
     }
 }
@@ -30,6 +34,8 @@ export default {
             <AppMainThirdSection/>
             <AppMainSponsors/>
             <AppMainOrganisations/>
+            <AppMainFirstLightGraySection/>
+            <AppMainBigPhoto/>
         </main>
     </main>
 </template>

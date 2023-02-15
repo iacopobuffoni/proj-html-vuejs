@@ -1,0 +1,49 @@
+@import "../partials/mixins.scss";
+
+main {
+    width: 100%;
+    min-height: 100px;
+    
+
+        .main-container {
+            width: 65%;
+            margin: auto;
+            position: relative;
+            display: flex;
+            padding-top: 110px;
+
+            .left-main-container {
+                width: 50%;
+                color: white;
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+
+            .right-main-container {
+                width: 50%;
+                height: 100%;
+
+                .box {
+
+                    width: 100%;
+                    padding: 50px 100px;
+                    text-align: left;
+                    
+                    p {
+                        font-size: 2em;
+                        line-height: 30pt;
+                        font-weight: 500;
+                    }
+
+                    h6 {
+                        font-weight: lighter;
+                        font-size: 0.9em;
+                    }
+                }
+            }
+        }
+    
+}
