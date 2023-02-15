@@ -3,6 +3,7 @@
 main {
     width: 100%;
     padding-top: 150px;
+    padding-bottom: 100px;
 
     .main-container {
         width: 75%;
@@ -30,9 +31,23 @@ main {
 
                 h3 {
                     font-size: 1.9em;
+                    border-bottom: 1px dotted lightgray;
+                    padding-bottom: 20px;
                 }
 
             }
+
         }
+
+        .btn {
+                @include my-btn;
+                text-align: center;
+                background-color: $orange;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
     }
 }

@@ -50,6 +50,7 @@ main {
                     p {
                         font-size: 1.5em;
                     }
+                    
                     .btn {
                         @include my-btn;
                         text-align: center;
