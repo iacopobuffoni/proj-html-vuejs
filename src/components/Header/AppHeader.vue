@@ -1,6 +1,12 @@
 <script>
 export default {
     name: 'AppHeader',
+    data() {
+        return {
+            partone: ['Home', 'Services'],
+            parttwo: ['Why Us', 'Case Studies', 'About', 'Blog']
+        }
+    }
 }
 </script>
 
@@ -11,46 +17,18 @@ export default {
                 <img src="../../assets/images/avada-marketing-logo.png" alt="">
             </div>
             <ul class="d-flex list-unstyled align-items-center mb-0 mx-4">
-                <li class="me-3">
-                    <a href="#" class="orange">
+                <li class="me-3" v-for="nameone in partone">
+                    <a href="#" class="">
                         <span class="me-1">
-                            Home 
+                            {{ nameone }}
                         </span>
                         <font-awesome-icon icon="fa-solid fa-angle-down" class="dropdown" />
                     </a>
                 </li>
-                <li class="mx-3">
+                <li class="mx-3" v-for="nametwo in parttwo">
                     <a href="#" class="">
                         <span class="me-1">
-                            Services 
-                        </span>
-                        <font-awesome-icon icon="fa-solid fa-angle-down" class="dropdown" />
-                    </a>
-                </li>
-                <li class="mx-3">
-                    <a href="#" class="">
-                        <span class="me-1">
-                            Why Us 
-                        </span>
-                    </a>
-                </li><li class="mx-3">
-                    <a href="#" class="">
-                        <span class="me-1">
-                            Case Studies
-                        </span>
-                    </a>
-                </li>
-                <li class="mx-3">
-                    <a href="#" class="">
-                        <span class="me-1">
-                            About 
-                        </span>
-                    </a>
-                </li>
-                <li class="mx-3">
-                    <a href="#" class="">
-                        <span class="me-1">
-                            Blog 
+                            {{ nametwo }}
                         </span>
                     </a>
                 </li>
