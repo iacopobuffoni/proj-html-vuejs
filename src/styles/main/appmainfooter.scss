@@ -1,0 +1,119 @@
+@import "../partials/mixins.scss";
+
+main {
+    width: 100%;
+    min-height: 100px;
+
+    header {
+        width: 100%;
+        background-color: black;
+        position: relative;
+        padding-bottom: 120px;
+
+        .header-container {
+            width: 70%;
+            margin: auto;
+            display: flex;
+
+            .left-header-container {
+                width: 50%;
+                color: white;
+
+                h1 {
+                    font-size: 4.25em;
+                    font-weight: bold;
+                    padding-top: 120px;
+                }
+
+                p {
+                    font-size: 1.75em;
+                    margin: 1.2em 0;
+                }
+
+                .line {
+                    border-bottom: 0.5px solid  #686868 ;
+                    width: 20%;
+                }
+
+                h6 {
+                    font-weight: lighter;
+                    font-size: 0.9em;
+                    color: #ccc9c6;
+                }
+            
+            }
+
+            .right-header-container {
+                width: 50%;
+                height: 100%;
+                padding-top: 120px;
+
+                .box {
+                    background-color: white;
+                    width: 70%;
+                    height: 100%;
+                    border-radius: 10px;
+                    margin: auto;
+                    text-align: center;
+                    box-shadow: 0px 0px 25px #888888;
+
+                    .upper {
+                        text-align: center;
+                        padding: 2em 0;
+
+                        .profile {
+                            width: 80px;
+                            height: 80px;
+                            margin: auto;
+                            border-radius: 50%;
+                            overflow: hidden;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        h4 {
+                            margin-top: 0.7em;
+                        }
+
+                        h5 {
+                            font-weight: lighter;
+                            color: gray;
+                            margin-top: 0.8em;
+                        }
+
+                        .orange {
+                            color: $orange;
+                            margin-top: 1.2em;
+                        }
+                    }
+
+                    input {
+                        @include my-btn;
+                        width: 100%;
+                    }
+
+                    .btn {
+                        @include my-btn;
+                        color: black;
+                        text-align: center;
+                        background-color: $orange;
+                        width: 100%;
+    
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+
+                    h6 {
+                        font-size: 0.8em;
+                        color: gray;
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -8,6 +8,7 @@ import AppMainOrganisations from './AppMainOrganisations.vue';
 import AppMainFirstLightGraySection from './AppMainFirstLightGraySection.vue';
 import AppMainBigPhoto from './AppMainBigPhoto.vue';
 import AppMainMarketingResources from './AppMainMarketingResources.vue';
+import AppMainFooter from './AppMainFooter.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -19,7 +20,8 @@ export default {
         AppMainOrganisations,
         AppMainFirstLightGraySection,
         AppMainBigPhoto,
-        AppMainMarketingResources
+        AppMainMarketingResources,
+        AppMainFooter
         
     }
 }
@@ -40,6 +42,9 @@ export default {
             <AppMainBigPhoto/>
             <AppMainMarketingResources/>
         </main>
+        <footer>
+            <AppMainFooter/>
+        </footer>
     </main>
 </template>
 
