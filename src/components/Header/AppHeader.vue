@@ -17,7 +17,7 @@ export default {
                 <img src="../../assets/images/avada-marketing-logo.png" alt="">
             </div>
             <ul class="d-flex list-unstyled align-items-center mb-0 mx-4">
-                <li class="me-3" v-for="nameone in store.partone">
+                <li class="me-4" v-for="nameone in store.partone">
                     <a href="#" class="">
                         <span class="me-1">
                             {{ nameone }}
