@@ -5,13 +5,19 @@ export default {
 </script>
 
 <template>
-    <main>
-        <header>
-            <div class="filter">
 
+    <main>
+
+        <header>
+        <!-- INIZIO MAIN HEADER -->
+            <div class="filter">
+            <!-- OPACITà BACKGROUND IMAGE -->
             </div>
+
             <div class="header-container">
+
                 <div class="left-header-container">
+                <!-- INIZIO PARTE SINISTRA -->
                     <h1 class="">
                         Unlock Your Online Growth Potential
                     </h1>
@@ -22,10 +28,15 @@ export default {
                         <a class="orange fs-5"> Our Services </a>
                         <font-awesome-icon icon="fa-solid fa-arrow-right" />
                     </div>
+                <!-- FINE PARTE SINISTRA -->
                 </div>
+
                 <div class="right-header-container">
+                <!-- INIZIO PARTE DESTRA -->
                     <div class="box px-4 border">
+
                         <div class="upper">
+
                             <div class="profile">
                                 <img src="../../assets/images/marketing-consultant-expert.jpg" alt="">
                             </div>
@@ -41,23 +52,34 @@ export default {
                                     (555) 802-1234
                                 </span>
                             </div>
+
                         </div>
+
                         <form action="">
+
                             <input type="text" class="border" placeholder="Your Name*">
                             <input type="text" class="mt-3 border" placeholder="Your Email*">
                             <input type="text" class="mt-3 border" placeholder="Your Phone Number*">
                             <div class="btn mt-3">
                                 <a class="orange fs-5"> Get a Callback </a>
                             </div>
+
                         </form>
+
                         <h6 class="mt-3 pb-5">
                             By submitting my data I agree to be contacted
                         </h6>
+
                     </div>
+                <!-- FINE PARTE DESTRA -->
                 </div>
+
             </div>
+        <!-- FINE MAIN HEADER -->
         </header>
+
     </main>
+
 </template>
 
 <style lang="scss" scoped>

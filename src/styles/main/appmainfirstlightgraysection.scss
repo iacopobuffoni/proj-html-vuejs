@@ -13,7 +13,7 @@ main {
             position: relative;
             display: flex;
 
-            .left-main-container {
+            .left-main-container { // CORRISPONDE ALLA PARTE DESTRA 
                 width: 50%;
                 color: white;
 
@@ -42,7 +42,7 @@ main {
                 
             }
 
-            .right-main-container {
+            .right-main-container { // CORRISPONDE ALLA PARTE SINISTRA
                 width: 50%;
                 height: 100%;
 

@@ -33,14 +33,22 @@ export default {
             <AppMainHeader/>
         </header>
         <main>
+            <!-- INIZIO PRIMO BLOCCO -->
             <AppMainFirstSection/>
             <AppMainSecondSection/>
             <AppMainThirdSection/>
+            <!-- FINE PRIMO BLOCCO -->
+            <!-- INIZIO SECONDO BLOCCO -->
             <AppMainSponsors/>
             <AppMainOrganisations/>
+            <!-- FINE SECONDO BLOCCO -->
+            <!-- INIZIO PRIMA SEZIONE GRIGIA -->
             <AppMainFirstLightGraySection/>
+            <!-- FINE PRIMA SEZIONE GRIGIA -->
             <AppMainBigPhoto/>
+            <!-- INIZIO SECONDA SEZIONE GRIGIA -->
             <AppMainMarketingResources/>
+            <!-- FINE SECONDA SEZIONE GRIGIA -->
         </main>
         <footer>
             <AppMainFooter/>

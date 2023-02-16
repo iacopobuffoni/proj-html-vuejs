@@ -7,12 +7,17 @@ export default {
 <template>
 
     <main>
+
         <div class="main-container">
+
             <h2>
                 Trusted by Leading Organisations
             </h2>
+
             <div class="box">
+
                 <div class="">
+                <!-- INIZIO PRIMA CARD -->
                     <div class="box-img">
                         <img src="../../assets/images/case-studies-1.jpg" alt="">
                     </div>
@@ -23,8 +28,11 @@ export default {
                         200%
                     </h2>
                     <p class="fs-5 text-start"> Higher revenue from digital </p>
+                <!-- FINE PRIMA CARD -->
                 </div>
+
                 <div class="">
+                <!-- INIZIO SECONDA CARD -->
                     <div class="box-img">
                         <img src="../../assets/images/case-studies-4.jpg" alt="">
                     </div>
@@ -35,8 +43,11 @@ export default {
                         10x
                     </h2>
                     <p class="fs-5 text-start"> Sales increase with the same ad spend </p>
+                <!-- FINE SECONDA CARD -->
                 </div>
+
                 <div class="">
+                <!-- INIZIO TERZA CARD -->
                     <div class="box-img">
                         <img src="../../assets/images/case-studies-6.jpg" alt="">
                     </div>
@@ -47,13 +58,19 @@ export default {
                         3-year
                     </h2>
                     <p class="fs-5 text-start"> Partnership with Avada Consultant </p>
+                <!-- FINE TERZA CARD -->
                 </div>
+
             </div>
+            <!-- BOTTONE -->
             <div class="btn mt-4">
                 <a class="orange fs-5"> Read More Case Studies </a>
             </div>
+
         </div>
+
     </main>
+
 </template>
 
 <style lang="scss" scoped>
